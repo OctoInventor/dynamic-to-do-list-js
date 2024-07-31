@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         todoList.appendChild(newItem);
         inputField.value = ''; // Clear the input field
     });
+});
 
     document.addEventListener('DOMContentLoaded', function() {
         const addButton = document.getElementById('addButton');
@@ -328,7 +329,4 @@ document.addEventListener('DOMContentLoaded', function() {
     
         // Invoke addTask on DOMContentLoaded
         addTask();
-    });
-});
-
-
+    })
